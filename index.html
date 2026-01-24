@@ -14,10 +14,21 @@
       text-align: center;
     }
 
+    /* HERO BACKGROUND */
+    .hero {
+      background: 
+        linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0,0,0,0.9)),
+        url("https://raw.githubusercontent.com/smailmae/norules-landing/refs/heads/main/ChatGPT%20Image%20Jan%2020%2C%202026%2C%2002_33_47%20PM.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 60px 20px;
+    }
+
     .container {
       max-width: 900px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 20px 20px;
     }
 
     h1 {
@@ -36,12 +47,6 @@
       line-height: 1.6;
     }
 
-    img {
-      max-width: 100%;
-      border-radius: 16px;
-      margin: 30px 0;
-    }
-
     .btn {
       display: block;
       margin: 15px auto;
@@ -52,6 +57,12 @@
       width: 90%;
       max-width: 420px;
       font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.03);
+      opacity: 0.9;
     }
 
     .btn-telegram {
@@ -70,6 +81,8 @@
       border-radius: 12px;
       padding: 20px;
       margin-top: 30px;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(6px);
     }
 
     .promo-box h3 {
@@ -87,51 +100,50 @@
 </head>
 
 <body>
-  <div class="container">
 
-    <h1>NoRules Betting</h1>
-    <h2>No limits. Just wins.</h2>
+  <div class="hero">
+    <div class="container">
 
-    <p>
-      🔥 توقعات كرة القدم + مكافآت تسجيل حصرية على Melbet<br />
-      Football predictions & exclusive Melbet bonuses
-    </p>
+      <h1>NoRules Betting</h1>
+      <h2>No limits. Just wins.</h2>
 
-    <img 
-      src="https://raw.githubusercontent.com/smailmae/norules-landing/refs/heads/main/ChatGPT%20Image%20Jan%2020%2C%202026%2C%2002_33_47%20PM.png" 
-      alt="NoRules Betting"
-    />
-
-    <a 
-      class="btn btn-telegram" 
-      href="https://t.me/velvetsmail" 
-      target="_blank"
-    >
-      📲 Join NoRules Telegram
-    </a>
-
-    <a 
-      class="btn btn-melbet" 
-      href="https://melbet.com/?bt=d_5140828m_2170c_NORULES1" 
-      target="_blank"
-    >
-      💰 Register on Melbet
-    </a>
-
-    <div class="promo-box">
-      <p>🎟 Promo Code</p>
-      <h3>NORULES1</h3>
       <p>
-        استخدم كود NORULES1 أثناء التسجيل للحصول على العروض الخاصة<br />
-        Use promo code NORULES1 during registration to unlock bonuses
+        🔥 توقعات كرة القدم + مكافآت تسجيل حصرية على Melbet<br />
+        Football predictions & exclusive Melbet bonuses
       </p>
-    </div>
 
-    <div class="footer">
-      ⚠️ +18 | Gamble responsibly<br />
-      NoRules Betting © 2026
-    </div>
+      <a 
+        class="btn btn-telegram" 
+        href="https://t.me/velvetsmail" 
+        target="_blank"
+      >
+        📲 Join NoRules Telegram
+      </a>
 
+      <a 
+        class="btn btn-melbet" 
+        href="https://melbet.com/?bt=d_5140828m_2170c_NORULES1" 
+        target="_blank"
+      >
+        💰 Register on Melbet
+      </a>
+
+      <div class="promo-box">
+        <p>🎟 Promo Code</p>
+        <h3>NORULES1</h3>
+        <p>
+          استخدم كود NORULES1 أثناء التسجيل للحصول على العروض الخاصة<br />
+          Use promo code NORULES1 during registration to unlock bonuses
+        </p>
+      </div>
+
+      <div class="footer">
+        ⚠️ +18 | Gamble responsibly<br />
+        NoRules Betting © 2026
+      </div>
+
+    </div>
   </div>
+
 </body>
 </html>
